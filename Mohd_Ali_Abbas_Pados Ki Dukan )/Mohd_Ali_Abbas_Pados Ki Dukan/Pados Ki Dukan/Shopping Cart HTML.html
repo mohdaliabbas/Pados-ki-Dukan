@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="/Pados Ki Dukan/Home Page CSS.css">
+    <!-- <link rel="stylesheet" href="/Profile CSS.css"> -->
+</head>
+<style>
+    body{
+
+background-color: white;
+}
+
+
+.card{
+/* border: 2px solid red; */
+width: 400px;
+border:none;
+
+}
+
+
+
+
+.btr{
+
+border-top-right-radius: 5px !important;
+}
+
+
+.btl{
+
+border-top-left-radius: 5px !important;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #44ca63;
+  border-color: #3dcf44;
+}
+
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #26d620;
+  border-color: #3ac140;
+}
+
+
+.nav-pills{
+
+display:table !important;
+width:100%;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0px;
+      border-bottom: 1px solid #70eb4340;
+
+}
+
+.nav-item{
+    /* border: 2px solid green; */
+    display: table-cell;
+     background: white;
+}
+
+
+.form{
+border: white;
+padding: 10px;
+    height: 300px;
+    margin-bottom: 70px;
+}
+
+.form input{
+
+margin-bottom: 12px;
+border-radius: 3px;
+}
+
+
+.form input:focus{
+
+box-shadow: none;
+}
+
+
+.form button{
+
+margin-top: 20px;
+}
+</style>
+<body>
+    <nav class="navigation">
+
+        <!--logo-------->
+        <!-- <style>span{background-color: #40aa54; display: inline-block;}</style> -->
+        <a href="">
+            <!-- <span>PADOS<span>KI</span><span>DUKAN</span> -->
+            <a href="#" class="logo">
+                <!-- <style>.s{text-decoration: none;}</style> -->
+                                <!-- <span class="s">PADOS KI DUKAN</span> -->
+                                <img src="/Pados Ki Dukan/logo.jpg"  height="70px" width="70px" alt="">
+                
+                            </a>
+        <!-- <a href="#" class="logo">
+<style>.s{display: inline-block;}</style>
+            <a>PADOS<span class="s"> KI DUKAN</span></a>
+
+        </a> -->
+
+        <!--menu-btn---->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+
+        <label for="menu-btn" class="menu-icon">
+
+            <span class="nav-icon"></span>
+
+        </label>
+
+        <!--menu-------->
+        <ul class="menu">
+
+            <li>
+                <a href="Home Page HTML.html" class="active">
+                    
+                    Home
+
+                </a>
+            
+            </li>
+
+
+
+            <!-- <li>
+
+                <a href="#popular-bundle-pack">
+                    
+                    Packages
+                
+                </a>
+            
+            </li> -->
+
+            <li>
+                
+                <a href="Contact Form HTML.html">
+                    
+                    Contact&nbsp;Us
+                
+                </a>
+            
+            </li>
+            
+
+            
+            <li>
+
+                <a href="About Us HTML.html">
+
+                    About&nbsp;us
+
+                </a>
+
+            </li>
+
+
+
+            <li>
+                
+                <a href="signup.html">
+                        
+                    Sign&nbsp;up
+                    
+                </a>
+                
+            </li>
+
+            
+            <li>
+                
+                <a href="Login And Registration HTML.html">
+                    
+                    Login
+                
+                </a>
+            
+            </li>
+
+            </ul>
+
+        <!--right-nav-(cart-like)-->
+        <div class="right-nav">
+
+            <!--like----->
+
+            <!--cart----->
+            <a href="Shopping Cart HTML.html" class="cart">
+
+                <i class="fas fa-shopping-cart"></i>
+
+                <span>
+                    
+                    2
+                
+                </span>
+
+            </a>
+
+            <!--cart----->
+            <a href="Profile HTML.html" class="user-profile">
+
+                <i class="fas fa-user"></i>
+
+                <span>
+
+                    1
+
+                </span>
+
+            </a>
+
+        </div>
+
+    </nav>
+<html>
+
+	<head>
+
+		<title>
+            
+            Shopping Cart
+        
+        </title>
+
+		<link rel ="stylesheet" type="text/css" href="Shopping Cart CSS.css">
+
+		<script src="https://kit.fontawesome.com/9088cc6401.js" crossorigin="anonymous"></script>
+
+	</head>
+
+    <body>
+
+        <div class="container">
+
+            <h1>
+                
+                Shopping Cart
+            
+            </h1>
+
+            <div class="cart">
+
+                <div class="products">
+
+                    <div class="product">
+
+                        <img src="/Pados Ki Dukan/cabage.jpg">
+
+                        <div class="product-info">
+
+                            <h3 class="product-name">
+                                
+                                Cabbage
+                            
+                            </h3>
+
+                            <h4 class="product-price">
+                                
+                                Rs. 30
+                            
+                            </h4>
+
+                            <h4 class="product-offer">
+                                
+                                50%
+                            
+                            </h4>
+
+                            <p class="product-quantity">
+                                
+                                Qnt: 
+                                
+                                <input value="1" name="">
+                            
+                            </p>
+
+                            <p class="product-remove">
+
+                                <i class="fas fa-trash-alt"></i>
+
+                                <span class="remove">
+                                    
+                                    Remove
+                                
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product">
+
+                        <img src="/Pados Ki Dukan/apple.jpg">
+
+                        <div class="product-info">
+
+                            <h3 class="product-name">
+                                
+                                Apple
+                            
+                            </h3>
+
+                            <h4 class="product-price">
+                                
+                                Rs. 90
+                            
+                            </h4>
+
+                            <h4 class="product-offer">
+                                
+                                20%
+                            
+                            </h4>
+
+                            <p class="product-quantity">
+                                
+                                Qnt: 
+                                
+                                <input value="1" name="">
+                            
+                            </p>
+                            <p class="product-remove">
+
+                                <i class="fas fa-trash-alt"></i>
+
+                                <span class="remove">
+                                    
+                                    Remove
+                                
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cart-total">
+
+                    <p>
+
+                        <span>
+                            
+                            Total Price
+                        
+                        </span>
+
+                        <span>
+                            
+                            Rs. 183
+                        
+                        </span>
+
+                    </p>
+                    <p>
+
+                        <span>
+                            
+                            No. of Items
+                        
+                        </span>
+
+                        <span>
+                            
+                            2
+                        
+                        </span>
+
+                    </p>
+
+                    <p>
+
+                        <span>
+                            
+                            You Save
+                        
+                        </span>
+
+                        <span>
+                            
+                            Rs. 177
+                        
+                        </span>
+
+                    </p>
+
+                    <a href="Details For Checkout HTML.html">
+                        
+                        Proceed to Checkout
+                    
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
+<footer>
+    <div class="footer-container">
+        <!--logo-container------>
+        <div class="footer-logo">
+            <img src="/Pados Ki Dukan/logo.jpg" height="70px" width="70px" alt="">
+            <!--social----->
+            <div class="footer-social">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=en-in"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <!--links------------------------->
+    <div class="footer-links">
+        <strong>Product</strong>
+        <ul>
+            <li><a href="Home Page HTML.html">Grocery</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="Home Page HTML.html">Popular</a></li>
+            <li><a href="Home Page HTML.html">New</a></li>
+        </ul>
+    </div>
+    <!--links------------------------->
+    <div class="footer-links">
+        <strong>Category</strong>
+        <ul>
+            <li><a href="fruit.html">Fruits</a></li>
+            <li><a href="vegetablepage.html">Vegetables</a></li>
+
+        </ul>
+    </div>
+    <!--links-------------------------->
+    <div class="footer-links">
+        <strong>Contact</strong>
+        <ul>
+            <li><a href="#">Phone : +918299288287</a></li>
+            <li><a href="Contact Form HTML.html">Email : aliabbas9335@gmail.com</a></li>
+            <li><a href="Home Page HTML.html">Cities we serve</a></li>
+        </ul>
+        
+    </div>
+    </div>
+</footer>
+</body>
+</html>

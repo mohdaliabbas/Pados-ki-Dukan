@@ -1,0 +1,24 @@
+SDLC PROCESS FOR MY PROJECT
+1. Planning
+In this phase of project development lifecycle ,I plan how do take steps in developing my project.
+
+2. Define Requirements
+ Requirements also include defining the resources needed to build the project.
+
+3. Design and Prototyping
+ The Design phase models the way a software application will work .Prototyping can be a part of the Design phase. 
+ A prototype is like one of the early versions of software in the Iterative software development model.
+
+4. Software Development
+This is the actual writing of the program. A small project might be written by a single developer, 
+while a large project might be broken up and worked by several teams.
+
+
+5. Testing(My Project Does not follow this phase till Now)
+
+6. Deployment(My Project Does not follow this phase till Now)
+
+
+
+
+7. Operations and Maintenance(My Project Does not this phase till Now)
